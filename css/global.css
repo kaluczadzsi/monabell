@@ -22,7 +22,7 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: #231f20;
+  background-color: #201e20;
   color: #fff;
   height: 7.5rem;
   align-items: center;
@@ -31,6 +31,10 @@ ul {
 .nav__logo {
   font-size: 2rem;
   font-weight: 600;
+  transition: all 0.3s;
+}
+.nav__logo:hover {
+  color: #e0a96d;
 }
 .nav__links {
   font-size: 1.2rem;
@@ -39,6 +43,9 @@ ul {
 }
 .nav__link {
   transition: color 0.7s ease;
+}
+.nav__link:hover {
+  color: #e0a96d;
 }
 .nav .hamburger {
   display: none;
@@ -69,7 +76,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #231f20;
+    background-color: #201e20;
     backdrop-filter: blur(100px);
     transition: 0.3s;
   }
@@ -78,6 +85,9 @@ ul {
   }
   .nav .hamburger {
     display: block;
+  }
+  .nav .hamburger:hover .bar {
+    background-color: #e0a96d;
   }
   .nav .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
