@@ -73,6 +73,7 @@ svg {
 }
 .nav__link:hover {
   color: #ddc3a5;
+  transform: rotate(35deg);
 }
 .nav .hamburger {
   display: none;
