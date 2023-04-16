@@ -1,5 +1,5 @@
 .nav {
-  position: absolute;
+  position: sticky;
   top: 0;
   left: 0;
   padding: 1rem;
@@ -8,11 +8,17 @@
   justify-content: space-around;
   background-color: $clr-main;
   color: $clr-white;
-  height: 140px;
-  width: 100vw;
+  height: 7.5rem;
   align-items: center;
+  z-index: 1;
+
+  &__logo {
+    font-size: 2rem;
+    font-weight: 600;
+  }
 
   &__links {
+    font-size: 1.2rem;
     display: flex;
     gap: 5rem;
   }
@@ -24,7 +30,15 @@
   .hamburger {
     display: none;
     cursor: pointer;
-    fill: $clr-white;
+
+    .bar {
+      display: block;
+      width: 25px;
+      height: 3px;
+      margin: 5px auto;
+      background-color: $clr-white;
+      transition: all 0.3s ease-in-out;
+    }
   }
 }
 
@@ -33,11 +47,42 @@
   .nav {
     justify-content: space-between;
     padding: 4rem;
+
     &__links {
-      display: none;
+      z-index: -1;
+      top: 0;
+      left: -100%;
+      position: absolute;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $clr-main;
+
+      backdrop-filter: blur(100px);
+      transition: 0.3s;
+
+      &.active {
+        left: 0;
+      }
     }
+
     .hamburger {
       display: block;
+
+      &.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+      }
+
+      &.active .bar:nth-child(2) {
+        opacity: 0;
+      }
+
+      &.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+      }
     }
   }
 }
