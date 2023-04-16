@@ -1,0 +1,13 @@
+@import 'reset.scss';
+@import 'colors.scss';
+@import 'fonts.scss';
+@import 'nav.scss';
+
+body {
+  font-family: $ff-main;
+  height: 100vh;
+}
+
+a {
+  color: $clr-white;
+}

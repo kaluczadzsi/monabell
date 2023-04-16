@@ -1,0 +1,43 @@
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: $clr-main;
+  color: $clr-white;
+  height: 140px;
+  width: 100vw;
+  align-items: center;
+
+  &__links {
+    display: flex;
+    gap: 5rem;
+  }
+
+  &__link {
+    transition: color 0.7s ease;
+  }
+
+  .hamburger {
+    display: none;
+    cursor: pointer;
+    fill: $clr-white;
+  }
+}
+
+// 768px
+@media (max-width: 48em) {
+  .nav {
+    justify-content: space-between;
+    padding: 4rem;
+    &__links {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+    }
+  }
+}

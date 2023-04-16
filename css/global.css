@@ -1,0 +1,63 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #231f20;
+  color: #fff;
+  height: 140px;
+  width: 100vw;
+  align-items: center;
+}
+.nav__links {
+  display: flex;
+  gap: 5rem;
+}
+.nav__link {
+  transition: color 0.7s ease;
+}
+.nav .hamburger {
+  display: none;
+  cursor: pointer;
+  fill: #fff;
+}
+
+@media (max-width: 48em) {
+  .nav {
+    justify-content: space-between;
+    padding: 4rem;
+  }
+  .nav__links {
+    display: none;
+  }
+  .nav .hamburger {
+    display: block;
+  }
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+a {
+  color: #fff;
+}/*# sourceMappingURL=global.css.map */
