@@ -11,15 +11,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-img,
-picture,
-video,
-canvas,
-svg {
+img {
+  width: 100%;
   display: block;
-  max-width: 100%;
 }
-
 input,
 button,
 textarea,
