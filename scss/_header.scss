@@ -1,0 +1,8 @@
+.header {
+  color: $clr-white;
+  border: 2px solid blue;
+  height: 100vh;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)),
+    url('../img/hero.jpg');
+  background-size: cover;
+}

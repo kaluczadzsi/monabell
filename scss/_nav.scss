@@ -1,0 +1,15 @@
+.nav {
+  font-size: 3rem;
+  border: 1px solid pink;
+
+  &__links {
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    text-transform: uppercase;
+  }
+}

@@ -35,4 +35,48 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+a {
+  all: unset;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 130rem;
+  margin: 0 auto;
+}
+
+.nav {
+  font-size: 3rem;
+  border: 1px solid pink;
+}
+.nav__links {
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__logo {
+  text-transform: uppercase;
+}
+
+.header {
+  color: #fff;
+  border: 2px solid blue;
+  height: 100vh;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("../img/hero.jpg");
+  background-size: cover;
 }/*# sourceMappingURL=style.css.map */
