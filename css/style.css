@@ -1,3 +1,92 @@
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 160rem;
+  margin: 0 auto;
+}
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.2rem 6.4rem;
+  background-color: #4b443f;
+  color: #fff;
+  border: 1px solid #fff;
+  font-weight: 700;
+  transition: background 0.3s ease-in-out;
+}
+.btn:hover {
+  background-color: #fff;
+  color: #4b443f;
+}
+
+/* Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 
+36 / 44 / 52 / 62 / 74 / 86 / 98 
+*/
+/* 
+Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+.header {
+  position: relative;
+  color: #fff;
+  height: 100vh;
+  background-image: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.header__container {
+  width: 160rem;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header__container__inner {
+  text-align: center;
+  width: 50%;
+}
+.header__title, .header__text {
+  margin-bottom: 3.2rem;
+}
+.header__title {
+  font-size: 5.2rem;
+}
+.header__text {
+  font-size: 2rem;
+}
+
+.nav {
+  font-size: 2rem;
+  border-bottom: 1px solid #fff;
+}
+.nav__links {
+  display: flex;
+  padding: 2rem 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav__link {
+  transition: background 0.5s;
+  padding: 1.2rem 2.4rem;
+}
+.nav__link:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.nav__logo {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.nav__logo:hover {
+  background-color: transparent;
+}
+
 *,
 *::before,
 *::after {
@@ -40,43 +129,9 @@ h6 {
 a {
   all: unset;
   cursor: pointer;
+  display: inline-block;
 }
 
 ul {
   list-style-type: none;
-}
-
-html {
-  font-size: 62.5%;
-}
-
-body {
-  font-family: "Montserrat", sans-serif;
-}
-
-.container {
-  max-width: 130rem;
-  margin: 0 auto;
-}
-
-.nav {
-  font-size: 3rem;
-  border: 1px solid pink;
-}
-.nav__links {
-  display: flex;
-  padding: 2rem 0;
-  align-items: center;
-  justify-content: space-between;
-}
-.nav__logo {
-  text-transform: uppercase;
-}
-
-.header {
-  color: #fff;
-  border: 2px solid blue;
-  height: 100vh;
-  background-image: linear-gradient(rgba(1, 1, 1, 0.6), rgba(1, 1, 1, 0.6)), url("../img/hero.jpg");
-  background-size: cover;
 }/*# sourceMappingURL=style.css.map */

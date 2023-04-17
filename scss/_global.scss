@@ -1,12 +1,33 @@
 html {
   font-size: 62.5%;
-}
-
-body {
   font-family: $ff-montserrat;
 }
 
 .container {
-  max-width: 130rem;
+  max-width: 160rem;
   margin: 0 auto;
 }
+
+.btn {
+  font-size: 1.8rem;
+  padding: 1.2rem 6.4rem;
+  background-color: $clr-beige;
+  color: $clr-white;
+  border: 1px solid $clr-white;
+  font-weight: 700;
+  transition: background 0.3s ease-in-out;
+
+  &:hover {
+    background-color: $clr-white;
+    color: $clr-beige;
+  }
+}
+/* Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 
+36 / 44 / 52 / 62 / 74 / 86 / 98 
+*/
+
+/* 
+Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
