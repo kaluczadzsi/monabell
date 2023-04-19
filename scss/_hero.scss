@@ -1,0 +1,29 @@
+.section-hero {
+  background-color: $clr-primary-100;
+  padding: 6.4rem 0;
+
+  .hero {
+    // border: 2px solid red;
+    padding: 2rem 8rem;
+
+    &-header {
+      margin-bottom: 1.6rem;
+    }
+
+    &-main-text {
+      font-size: 4rem;
+      margin-bottom: 4rem;
+      max-width: 80.6rem;
+    }
+
+    &-btn {
+      &:hover {
+        background-color: $clr-neutral-100;
+        color: $clr-primary-400;
+        transform: translateY(-0.5rem);
+        box-shadow: rgba(1, 1, 1, 0.25) 0px 30px 60px -12px,
+          rgba(1, 1, 1, 0.3) 0px 18px 36px -18px;
+      }
+    }
+  }
+}
