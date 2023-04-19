@@ -1,0 +1,15 @@
+.section-nav {
+  border: 1px solid red;
+
+  .nav {
+    border: 1px solid blue;
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+
+    justify-content: space-between;
+
+    .nav-list {
+      gap: 5rem;
+    }
+  }
+}
