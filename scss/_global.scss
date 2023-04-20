@@ -1,6 +1,7 @@
 body {
   font-size: 1.6rem;
   font-family: $ff-main;
+  color: $clr-primary-900;
 }
 
 .container {
@@ -18,6 +19,10 @@ body {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .btn {

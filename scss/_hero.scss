@@ -4,12 +4,12 @@
   .hero {
     &-header {
       margin-bottom: 1.6rem;
+      color: $clr-primary-400;
     }
 
     &-main-text {
-      font-size: 4rem;
+      font-size: 6.4rem;
       margin-bottom: 4rem;
-      max-width: 80.5rem;
     }
 
     &-btn {

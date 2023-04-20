@@ -90,6 +90,7 @@ a {
 body {
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
+  color: #000;
 }
 
 .container {
@@ -107,6 +108,10 @@ body {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .btn {
@@ -128,11 +133,11 @@ body {
 }
 .section-hero .hero-header {
   margin-bottom: 1.6rem;
+  color: #323232;
 }
 .section-hero .hero-main-text {
-  font-size: 4rem;
+  font-size: 6.4rem;
   margin-bottom: 4rem;
-  max-width: 80.5rem;
 }
 .section-hero .hero-btn:hover {
   background-color: #fff;
@@ -148,11 +153,30 @@ body {
 .section-footer .footer {
   justify-content: space-between;
 }
-.section-footer .footer > * {
-  align-self: center;
-}
 .section-footer .footer-header {
   text-transform: uppercase;
   font-weight: 700;
   margin-bottom: 2.4rem;
+}
+
+.section-gallery .gallery {
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem;
+}
+.section-gallery .gallery-img {
+  overflow: hidden;
+}
+.section-gallery .gallery-img img:hover {
+  transition: all 0.4s;
+  cursor: pointer;
+  transform: scale(1.2);
+}
+.section-gallery .gallery-header-text {
+  margin-bottom: 1.6rem;
+  color: #323232;
+}
+.section-gallery .gallery-header-main-text {
+  font-size: 3.2rem;
+  margin-bottom: 4rem;
+  font-weight: 500;
 }/*# sourceMappingURL=style.css.map */

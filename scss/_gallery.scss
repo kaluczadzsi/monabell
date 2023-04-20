@@ -1,0 +1,29 @@
+.section-gallery {
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 2rem;
+
+    &-img {
+      overflow: hidden;
+    }
+
+    &-img img:hover {
+      transition: all 0.4s;
+      cursor: pointer;
+      transform: scale(1.2);
+    }
+
+    &-header {
+      &-text {
+        margin-bottom: 1.6rem;
+        color: $clr-primary-400;
+      }
+
+      &-main-text {
+        font-size: 3.2rem;
+        margin-bottom: 4rem;
+        font-weight: 500;
+      }
+    }
+  }
+}
