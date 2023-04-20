@@ -119,9 +119,12 @@ body {
   background-color: #323232;
 }
 
+.section-py-65 {
+  padding: 6.5rem 0;
+}
+
 .section-hero {
   background-color: #ddd0c8;
-  padding: 6.4rem 0;
 }
 .section-hero .hero-header {
   margin-bottom: 1.6rem;
@@ -136,4 +139,20 @@ body {
   color: #323232;
   transform: translateY(-0.5rem);
   box-shadow: rgba(1, 1, 1, 0.25) 0px 30px 60px -12px, rgba(1, 1, 1, 0.3) 0px 18px 36px -18px;
+}
+
+.section-footer {
+  background-color: #323232;
+  color: #fff;
+}
+.section-footer .footer {
+  justify-content: space-between;
+}
+.section-footer .footer > * {
+  align-self: center;
+}
+.section-footer .footer-header {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 2.4rem;
 }/*# sourceMappingURL=style.css.map */
