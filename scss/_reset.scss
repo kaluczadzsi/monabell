@@ -12,15 +12,12 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
   height: 100%;
-}
-
-html:focus-within {
-  scroll-behavior: smooth;
 }
 
 body {
