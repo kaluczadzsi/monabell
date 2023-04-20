@@ -99,6 +99,12 @@ body {
   font-size: 1.6rem;
 }
 
+.inner-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+
 .flex {
   display: flex;
 }
@@ -117,16 +123,13 @@ body {
   background-color: #ddd0c8;
   padding: 6.4rem 0;
 }
-.section-hero .hero {
-  padding: 2rem 8rem;
-}
 .section-hero .hero-header {
   margin-bottom: 1.6rem;
 }
 .section-hero .hero-main-text {
   font-size: 4rem;
   margin-bottom: 4rem;
-  max-width: 80.6rem;
+  max-width: 80.5rem;
 }
 .section-hero .hero-btn:hover {
   background-color: #fff;

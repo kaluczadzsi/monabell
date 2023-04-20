@@ -10,6 +10,12 @@ body {
   font-size: 1.6rem;
 }
 
+.inner-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  padding: 1.6rem;
+}
+
 .flex {
   display: flex;
 }
