@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,9 +12,17 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+
     <!-- LIGHTBOX2 AND JQUERY-->
     <link href="css/lightbox.min.css" rel="stylesheet" />
     <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script defer>
+      lightbox.option({
+        resizeDuration: 1000,
+        wrapAround: true,
+      });
+    </script>
+
     <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Monabell Fodrászat</title>
@@ -53,7 +62,11 @@
       </div>
       <div class="gallery container grid">
         <figure class="gallery-img">
-          <a href="imgs/img-1.jpg" data-lightbox="hair">
+          <a
+            href="imgs/img-1.jpg"
+            data-lightbox="hair"
+            data-title="Fazonra vágva"
+          >
             <img src="imgs/thumbnails/t-1.jpg" alt="a woman's hair"
           /></a>
         </figure>
@@ -139,12 +152,4 @@
     </section>
   </body>
   <!-- SECTION TEST -->
-
-  <script>
-    lightbox.option({
-      resizeDuration: 1000,
-      wrapAround: true,
-      alwaysShowNavOnTouchDevices: true,
-    });
-  </script>
 </html>
