@@ -67,7 +67,7 @@ a {
   padding-top: 0.3rem;
 }
 .section-nav .nav-list-item::before {
-  content: "";
+  content: '';
   position: absolute;
   width: 100%;
   height: 1px;
@@ -86,7 +86,7 @@ a {
 
 body {
   font-size: 1.6rem;
-  font-family: "DM Sans", sans-serif;
+  font-family: 'DM Sans', sans-serif;
   color: #000;
 }
 
@@ -140,7 +140,8 @@ body {
   background-color: #fff;
   color: #323232;
   transform: translateY(-0.5rem);
-  box-shadow: rgba(1, 1, 1, 0.25) 0px 30px 60px -12px, rgba(1, 1, 1, 0.3) 0px 18px 36px -18px;
+  box-shadow: rgba(1, 1, 1, 0.25) 0px 30px 60px -12px,
+    rgba(1, 1, 1, 0.3) 0px 18px 36px -18px;
 }
 
 .section-footer {
@@ -176,4 +177,4 @@ body {
   font-size: 3.2rem;
   margin-bottom: 4rem;
   font-weight: 500;
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
