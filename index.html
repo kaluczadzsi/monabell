@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=DM+Sans:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <!-- LIGHTBOX2 AND JQUERY-->
+    <link href="css/lightbox.min.css" rel="stylesheet" />
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!-- LINK CSS -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Monabell Fodrászat</title>
   </head>
@@ -50,41 +54,41 @@
       <div class="gallery container grid">
         <div>
           <figure class="gallery-img">
-            <img src="imgs/img-1.jpg" alt="a woman's hair" />
+            <img src="imgs/thumbnails/t-1.jpg" alt="a woman's hair" />
           </figure>
         </div>
         <figure class="gallery-img">
-          <img src="imgs/img-2.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-2.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-3.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-3.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-4.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-4.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-5.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-5.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-6.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-6.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-7.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-7.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-8.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-8.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-9.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-9.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-10.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-10.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-11.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-11.jpg" alt="a woman's hair" />
         </figure>
         <figure class="gallery-img">
-          <img src="imgs/img-12.jpg" alt="a woman's hair" />
+          <img src="imgs/thumbnails/t-12.jpg" alt="a woman's hair" />
         </figure>
       </div>
     </section>
@@ -110,22 +114,19 @@
         </article>
       </div>
     </section>
-
-    <!-- TEST SECTION -->
-
-    <h1>gallery made with nanogallery2</h1>
-
-    <!-- ### start of the gallery definition ### -->
-    <div
-      id="nanogallery2"
-      data-nanogallery2='{ "thumbnailHeight": 150, "thumbnailWidth": 150,
-      "itemsBaseURL": "https://nanogallery2.nanostudio.org/samples/" }'
-    >
-      <!-- gallery content -->
-      <a href="imgs/img-1.jpg" data-ngThumb="berlin1_t.jpg"> Berlin 1 </a>
-      <a href="berlin2.jpg" data-ngThumb="berlin2_t.jpg"> Berlin 2 </a>
-      <a href="berlin3.jpg" data-ngThumb="berlin2_t.jpg"> Berlin 3 </a>
-    </div>
-    <!-- ### end of the gallery definition ### -->
   </body>
+  <!-- SECTION TEST -->
+
+  <a href="imgs/img-1.jpg" data-lightbox="roadtrip">Image #2</a>
+  <a href="imgs/img-2.jpg" data-lightbox="roadtrip">Image #3</a>
+  <a href="imgs/img-3.jpg" data-lightbox="roadtrip">Image #4</a>
+
+  <script>
+    lightbox.option({
+      resizeDuration: 1000,
+      wrapAround: false,
+      wrapAround: true,
+    });
+  </script>
+  >
 </html>
