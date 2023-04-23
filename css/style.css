@@ -47,6 +47,7 @@ a {
 
 .section-nav {
   background-color: #ddd0c8;
+  transition: all 0.3s ease-in-out;
 }
 .section-nav .nav {
   padding-top: 3.2rem;
@@ -89,6 +90,38 @@ a {
   transform: scaleX(1);
 }
 
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+}
+
+.icon-mobile-nav {
+  color: #000;
+}
+
+.icon-mobile-nav[name=menu-close] {
+  display: none;
+}
+
+.nav-list {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 40em) {
+  .btn-mobile-nav {
+    display: block;
+  }
+}
 body {
   font-size: 1.6rem;
   font-family: "DM Sans", sans-serif;
@@ -128,6 +161,10 @@ body {
 
 .section-py-65 {
   padding: 6.5rem 0;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .section-hero {

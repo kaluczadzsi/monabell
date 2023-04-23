@@ -1,5 +1,6 @@
 .section-nav {
   background-color: $clr-primary-100;
+  transition: all 0.3s ease-in-out;
 
   .nav {
     padding-top: 3.2rem;
@@ -46,5 +47,39 @@
       transform-origin: left;
       transform: scaleX(1);
     }
+  }
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+
+.icon-mobile-nav {
+  color: $clr-primary-900;
+}
+
+.icon-mobile-nav[name='menu-close'] {
+  display: none;
+}
+
+.nav-list {
+  background-color: $clr-neutral-100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 40em) {
+  .btn-mobile-nav {
+    display: block;
   }
 }
