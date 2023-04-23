@@ -9,7 +9,7 @@
     }
 
     &-main-text {
-      font-size: 4rem;
+      font-size: 3.8rem;
       margin-bottom: 4rem;
     }
 
@@ -28,5 +28,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+  }
+}
+
+@media (max-width: 45em) {
+  .section-hero {
+    padding: 6.5rem 0;
+    .inner-container.hero {
+      text-align: center;
+      grid-template-columns: 1fr;
+    }
   }
 }

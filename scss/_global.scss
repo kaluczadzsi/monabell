@@ -46,3 +46,15 @@ body {
 .bg-white {
   background-color: $clr-neutral-100;
 }
+
+.sticky {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: $clr-neutral-100;
+}
+
+.section-mt-10 {
+  margin-top: 10rem;
+}

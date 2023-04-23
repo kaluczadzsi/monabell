@@ -196,6 +196,18 @@ body {
   background-color: #fff;
 }
 
+.sticky {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+}
+
+.section-mt-10 {
+  margin-top: 10rem;
+}
+
 .section-hero {
   background-color: #ddd0c8;
 }
@@ -207,7 +219,7 @@ body {
   color: #323232;
 }
 .section-hero .hero-main-text {
-  font-size: 4rem;
+  font-size: 3.8rem;
   margin-bottom: 4rem;
 }
 .section-hero .hero-btn:hover {
@@ -222,6 +234,15 @@ body {
   align-items: center;
 }
 
+@media (max-width: 45em) {
+  .section-hero {
+    padding: 6.5rem 0;
+  }
+  .section-hero .inner-container.hero {
+    text-align: center;
+    grid-template-columns: 1fr;
+  }
+}
 .section-footer {
   background-color: #323232;
   color: #fff;
@@ -235,6 +256,22 @@ body {
   margin-bottom: 2.4rem;
 }
 
+@media (max-width: 45em) {
+  .section-footer {
+    padding: 0;
+  }
+  .section-footer .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+  .section-footer .footer article {
+    padding: 2rem;
+  }
+  .section-footer .footer article:not(:last-child) {
+    border-bottom: 1px solid #fff;
+    border-bottom-width: 10%;
+  }
+}
 .section-gallery .gallery {
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
   gap: 2rem;

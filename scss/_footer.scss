@@ -12,3 +12,22 @@
     }
   }
 }
+
+@media (max-width: 45em) {
+  .section-footer {
+    padding: 0;
+    .footer {
+      flex-direction: column;
+      text-align: center;
+
+      article {
+        padding: 2rem;
+      }
+
+      article:not(:last-child) {
+        border-bottom: 1px solid $clr-neutral-100;
+        border-bottom-width: 10%;
+      }
+    }
+  }
+}
