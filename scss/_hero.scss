@@ -2,13 +2,14 @@
   background-color: $clr-primary-100;
 
   .hero {
+    gap: 2rem;
     &-header {
       margin-bottom: 1.6rem;
       color: $clr-primary-400;
     }
 
     &-main-text {
-      font-size: 6.4rem;
+      font-size: 4rem;
       margin-bottom: 4rem;
     }
 
@@ -21,5 +22,11 @@
           rgba(1, 1, 1, 0.3) 0px 18px 36px -18px;
       }
     }
+  }
+
+  .inner-container.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 }
