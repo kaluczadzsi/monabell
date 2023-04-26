@@ -23,7 +23,6 @@ function slideMobileNav() {
 const obs = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
-    console.log(ent);
 
     if (ent.isIntersecting === false) {
       sectionNav.classList.add('sticky');
@@ -37,3 +36,11 @@ const obs = new IntersectionObserver(
 );
 
 obs.observe(sectionHero);
+
+window.addEventListener('scroll', function () {
+  if (window.scrollY === 0) {
+    sectionNav.classList.add('bg-pastel');
+    sectionNav.classList.remove('sticky');
+    sectionHero.classList.remove('section-mt-10');
+  }
+});
