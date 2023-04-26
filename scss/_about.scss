@@ -1,0 +1,15 @@
+.section-about {
+  .about {
+    &-header {
+      margin-bottom: 4rem;
+      font-size: 3.2rem;
+      color: $clr-primary-400;
+    }
+
+    &-text {
+      color: $clr-primary-900;
+      font-size: 2rem;
+      line-height: 1.8;
+    }
+  }
+}
