@@ -130,6 +130,7 @@ a {
     transition: 0.3s;
     pointer-events: none;
     transform: translateX(100%);
+    gap: 6rem !important;
   }
   .section-nav .nav-list.active {
     opacity: 1;
@@ -145,6 +146,11 @@ a {
   }
   .section-nav .nav-list-item::before {
     display: none;
+  }
+}
+@media (max-width: 52em) {
+  .section-nav .nav-list {
+    gap: 3rem;
   }
 }
 html {
@@ -298,13 +304,31 @@ body {
   font-weight: 500;
 }
 
+.section-about {
+  background-position: center center;
+  background-size: cover;
+}
+.section-about .about {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .section-about .about-header {
   margin-bottom: 4rem;
   font-size: 3.2rem;
   color: #323232;
 }
 .section-about .about-text {
-  color: #000;
+  background-color: #f2f2f2;
+  max-width: 75%;
+  padding: 4rem;
   font-size: 2rem;
   line-height: 1.8;
+  text-align: justify;
+}
+
+.section-feature .feature-header {
+  font-size: 3.2rem;
 }/*# sourceMappingURL=style.css.map */

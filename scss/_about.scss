@@ -1,5 +1,12 @@
 .section-about {
+  background-position: center center;
+  background-size: cover;
   .about {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     &-header {
       margin-bottom: 4rem;
       font-size: 3.2rem;
@@ -7,9 +14,12 @@
     }
 
     &-text {
-      color: $clr-primary-900;
+      background-color: #f2f2f2;
+      max-width: 75%;
+      padding: 4rem;
       font-size: 2rem;
       line-height: 1.8;
+      text-align: justify;
     }
   }
 }
