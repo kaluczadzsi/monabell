@@ -2,6 +2,56 @@
   .price {
     &-header {
       font-size: 3.2rem;
+      margin-bottom: 4rem;
+    }
+
+    &-table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: $clr-neutral-200;
+      border: 1px solid #f2f2f2;
+      padding: 1200px;
+
+      caption,
+      th,
+      td {
+        padding: 1rem;
+      }
+
+      th {
+        background-color: $clr-primary-100;
+      }
+
+      th:nth-child(1) {
+        text-align: left;
+      }
+
+      td {
+        width: 50%;
+      }
+
+      caption {
+        text-align: center;
+        font-weight: 700;
+        font-size: 2rem;
+
+        text-transform: uppercase;
+      }
+
+      tr:nth-of-type(2n) {
+        background-color: #fff;
+      }
+    }
+
+    &-table:not(:last-child) {
+      margin-bottom: 8rem;
+    }
+
+    &-info {
+      background-color: #fdf7df;
+      border: 1px solid #feec6f;
+      color: #c9971c;
+      padding: 2rem;
     }
   }
 }

@@ -57,7 +57,7 @@
             <a href="#section-feature">Szolgáltatásaink</a>
           </li>
           <li class="nav-list-item"><a href="#section-gallery">Galéria</a></li>
-          <li class="nav-list-item"><a href="#">Áraink</a></li>
+          <li class="nav-list-item"><a href="#section-price">Áraink</a></li>
           <li class="nav-list-item"><a href="#section-footer">Kapcsolat</a></li>
         </ul>
         <div class="hamburger">
@@ -228,54 +228,176 @@
     </section>
 
     <!-- SECTION PRICE -->
-    <section class="section-price section-py-65">
+    <section class="section-price section-py-65" id="section-price">
       <div class="price container">
         <h5 class="price-header">Áraink</h5>
 
-        <table>
+        <!-- HAIRCUT -->
+        <table class="price-table">
           <caption>
             Hajvágás
           </caption>
           <tr>
             <th>Típus</th>
-            <th>Ár (Ft)</th>
+            <th class="text-align-right">Ár (Ft)</th>
           </tr>
 
           <tr>
-            <td data-cell="hair-dry">Hajszárítás</td>
-            <td data-cell="price">4200</td>
+            <td>Hajszárítás</td>
+            <td class="text-align-right">4200</td>
           </tr>
 
           <tr>
-            <td data-cell="w-hair-cut-short">Női rövid hajvágás</td>
-            <td data-cell="price">4700</td>
+            <td>Női rövid hajvágás</td>
+            <td class="text-align-right">4700</td>
           </tr>
 
           <tr>
-            <td data-cell="w-hair-cut-long">Női hosszú hajvágás</td>
-            <td data-cell="price">5800</td>
+            <td>Női hosszú hajvágás</td>
+            <td class="text-align-right">5800</td>
           </tr>
 
           <tr>
-            <td data-cell="h-hair-cut">Melegollós hajvágás</td>
-            <td data-cell="price">6800</td>
+            <td>Melegollós hajvágás</td>
+            <td class="text-align-right">6800</td>
           </tr>
 
           <tr>
-            <td data-cell="m-hair-cut">Férfi hajvágás</td>
-            <td data-cell="price">4000</td>
+            <td>Férfi hajvágás</td>
+            <td class="text-align-right">4000</td>
           </tr>
 
           <tr>
-            <td data-cell="k-hair-cut">Gyermek hajvágás</td>
-            <td data-cell="price">2500</td>
+            <td>Gyermek hajvágás</td>
+            <td class="text-align-right">2500</td>
           </tr>
         </table>
+
+        <!-- HAIR DYEING -->
+        <table class="price-table">
+          <caption>
+            Hajfestés
+          </caption>
+          <tr>
+            <th>Típus</th>
+            <th class="text-align-right">Ár (Ft)</th>
+          </tr>
+
+          <tr>
+            <td>Hajtő festés</td>
+            <td class="text-align-right">10.400-tól</td>
+          </tr>
+
+          <tr>
+            <td>Hajtő festés, vágással</td>
+            <td class="text-align-right">12.400-tól</td>
+          </tr>
+
+          <tr>
+            <td>Teljes festés</td>
+            <td class="text-align-right">13.900-tól</td>
+          </tr>
+
+          <tr>
+            <td>Melírozás</td>
+            <td class="text-align-right">12.700-tól</td>
+          </tr>
+
+          <tr>
+            <td>Balayage</td>
+            <td class="text-align-right">21.400-tól</td>
+          </tr>
+
+          <tr>
+            <td>Szőkítéshez és festéshez a powerplex kezelés</td>
+            <td class="text-align-right">+ 2500</td>
+          </tr>
+
+          <tr>
+            <td>Festéshez és a melírozáshoz a hajvágás</td>
+            <td class="text-align-right">+ 2900</td>
+          </tr>
+
+          <tr>
+            <td>Hajszínváltoztató kezelések mellé a melegollós hajvágás</td>
+            <td class="text-align-right">+ 3400</td>
+          </tr>
+        </table>
+
+        <!-- TREATMENT -->
+        <table class="price-table">
+          <caption>
+            Kezelések
+          </caption>
+          <tr>
+            <th>Típus</th>
+            <th class="text-align-right">Ár (Ft)</th>
+          </tr>
+
+          <tr>
+            <td>Ampullás / Hidratáló kezelés</td>
+            <td class="text-align-right">6200-tól</td>
+          </tr>
+
+          <tr>
+            <td>Hajlaminálás</td>
+            <td class="text-align-right">7500</td>
+          </tr>
+
+          <tr>
+            <td>Powerplex kezelés</td>
+            <td class="text-align-right">8800</td>
+          </tr>
+        </table>
+
+        <!-- STYLES -->
+        <table class="price-table">
+          <caption>
+            Frizurák
+          </caption>
+          <tr>
+            <th>Típus</th>
+            <th class="text-align-right">Ár (Ft)</th>
+          </tr>
+
+          <tr>
+            <td>Alkalmi konty próbával</td>
+            <td class="text-align-right">12.000</td>
+          </tr>
+
+          <tr>
+            <td>Hajfonás</td>
+            <td class="text-align-right">2000-tól</td>
+          </tr>
+
+          <tr>
+            <td>Göndörítés / Vasalás</td>
+            <td class="text-align-right">2500-tól</td>
+          </tr>
+
+          <tr>
+            <td>Alkalmi frizura / Feltűzés</td>
+            <td class="text-align-right">5800</td>
+          </tr>
+        </table>
+
+        <div class="price-info">
+          <p class="price-info-text">
+            Az árlista tájékoztató jellegű, nem részletes. Az árak pontos
+            meghatározásához érdemes konzultálni a fodrásszal. Kérlek, vedd
+            figyelembe, hogy az árak a hajhossztól és a hajmennyiségtől függően
+            kerülnek megállapításra. A pontos költségek változhatnak az ügyfél
+            igényeitől és a szolgáltatások összetételétől függően.
+          </p>
+        </div>
       </div>
     </section>
 
     <!-- SECTION GALLERY -->
-    <section class="section-gallery section-py-65" id="section-gallery">
+    <section
+      class="section-gallery section-py-65 bg-pastel"
+      id="section-gallery"
+    >
       <div class="gallery-header container">
         <p class="gallery-header-text">A frizurád a legjobb kiegészítőd</p>
         <h6 class="gallery-header-main-text">

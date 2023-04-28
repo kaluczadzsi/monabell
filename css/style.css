@@ -216,6 +216,18 @@ body {
   margin-top: 10rem;
 }
 
+.text-align-right {
+  text-align: right;
+}
+
+@media (max-width: 45em) {
+  .feature-header,
+  .price-header,
+  .gallery-header-text,
+  .gallery-header-main-text {
+    text-align: center;
+  }
+}
 .section-hero {
   background-color: #ddd0c8;
 }
@@ -302,10 +314,6 @@ body {
   font-weight: 500;
 }
 
-.section-about {
-  background-position: center center;
-  background-size: cover;
-}
 .section-about .about {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -368,4 +376,44 @@ body {
 }
 .section-price .price-header {
   font-size: 3.2rem;
+  margin-bottom: 4rem;
+}
+.section-price .price-table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  padding: 1200px;
+}
+.section-price .price-table caption,
+.section-price .price-table th,
+.section-price .price-table td {
+  padding: 1rem;
+}
+.section-price .price-table th {
+  background-color: #ddd0c8;
+}
+.section-price .price-table th:nth-child(1) {
+  text-align: left;
+}
+.section-price .price-table td {
+  width: 50%;
+}
+.section-price .price-table caption {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.section-price .price-table tr:nth-of-type(2n) {
+  background-color: #fff;
+}
+.section-price .price-table:not(:last-child) {
+  margin-bottom: 8rem;
+}
+.section-price .price-info {
+  background-color: #fdf7df;
+  border: 1px solid #feec6f;
+  color: #c9971c;
+  padding: 2rem;
 }/*# sourceMappingURL=style.css.map */

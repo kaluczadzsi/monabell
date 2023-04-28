@@ -63,3 +63,16 @@ body {
 .section-mt-10 {
   margin-top: 10rem;
 }
+
+.text-align-right {
+  text-align: right;
+}
+
+@media (max-width: 45em) {
+  .feature-header,
+  .price-header,
+  .gallery-header-text,
+  .gallery-header-main-text {
+    text-align: center;
+  }
+}
