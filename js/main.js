@@ -15,11 +15,6 @@ navListItem.forEach((li) =>
   })
 );
 
-function slideMobileNav() {
-  hamburger.classList.toggle('active');
-  navList.classList.toggle('active');
-}
-
 const obs = new IntersectionObserver(
   (entries) => {
     const ent = entries[0];
@@ -44,3 +39,8 @@ window.addEventListener('scroll', function () {
     sectionHero.classList.remove('section-mt-10');
   }
 });
+
+function slideMobileNav() {
+  hamburger.classList.toggle('active');
+  navList.classList.toggle('active');
+}
