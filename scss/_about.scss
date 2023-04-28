@@ -1,12 +1,14 @@
 .section-about {
   background-position: center center;
   background-size: cover;
+
   .about {
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
     align-items: center;
     flex-direction: column;
+
     &-header {
       margin-bottom: 4rem;
       font-size: 3.2rem;

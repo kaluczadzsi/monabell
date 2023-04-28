@@ -332,7 +332,6 @@ body {
   }
 }
 .section-feature .feature-content {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
   gap: 2rem;
 }
@@ -366,4 +365,7 @@ body {
 .section-feature .feature-box-text {
   text-align: justify;
   line-height: 1.6;
+}
+.section-price .price-header {
+  font-size: 3.2rem;
 }/*# sourceMappingURL=style.css.map */
