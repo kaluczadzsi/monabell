@@ -328,9 +328,13 @@ body {
   font-size: 2rem;
   line-height: 1.8;
   text-align: justify;
-  min-width: 40rem;
 }
 
+@media (max-width: 45em) {
+  .section-about .about-text {
+    text-align: left;
+  }
+}
 .section-feature .feature-content {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));

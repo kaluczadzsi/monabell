@@ -20,7 +20,17 @@
       font-size: 2rem;
       line-height: 1.8;
       text-align: justify;
-      min-width: 40rem;
+      // min-width: 40rem;
+    }
+  }
+}
+
+@media (max-width: 45em) {
+  .section-about {
+    .about {
+      &-text {
+        text-align: left;
+      }
     }
   }
 }
