@@ -50,7 +50,7 @@
 
     .hamburger {
       cursor: pointer;
-      display: none;
+      // display: none;
 
       .bar {
         width: 25px;
@@ -68,6 +68,7 @@
 @media (max-width: 45em) {
   .section-nav {
     .nav {
+      position: relative;
       .hamburger {
         display: block;
       }
@@ -118,12 +119,12 @@
   }
 }
 
-@media (max-width: 28.125em) {
-  .section-nav {
-    .nav {
-      &-list {
-        top: 136px;
-      }
-    }
-  }
-}
+// @media (max-width: 28.125em) {
+//   .section-nav {
+//     .nav {
+//       &-logo {
+//         font-size: 1rem;
+//       }
+//     }
+//   }
+// }

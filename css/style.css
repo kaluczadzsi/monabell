@@ -91,7 +91,6 @@ a {
 }
 .section-nav .nav .hamburger {
   cursor: pointer;
-  display: none;
 }
 .section-nav .nav .hamburger .bar {
   width: 25px;
@@ -104,6 +103,9 @@ a {
 
 /* UNDER 720px */
 @media (max-width: 45em) {
+  .section-nav .nav {
+    position: relative;
+  }
   .section-nav .nav .hamburger {
     display: block;
   }
@@ -145,11 +147,6 @@ a {
     transition: all 0.3s ease-in-out;
   }
 }
-@media (max-width: 28.125em) {
-  .section-nav .nav-list {
-    top: 136px;
-  }
-}
 html {
   overflow-x: hidden;
 }
@@ -159,6 +156,10 @@ body {
   font-family: "DM Sans", sans-serif;
   color: #000;
   user-select: none;
+}
+
+img {
+  transition: all 0.3s;
 }
 
 .container {
@@ -214,6 +215,10 @@ body {
 
 .text-align-right {
   text-align: right;
+}
+
+.section-mt-10 {
+  margin-top: 10rem;
 }
 
 @media (max-width: 45em) {
@@ -343,7 +348,6 @@ body {
   margin-bottom: 4rem;
 }
 .section-feature .feature-card {
-  cursor: pointer;
   padding: 2.5rem;
   transition: all 0.3s ease;
   background-color: #fff;

@@ -9,6 +9,10 @@ body {
   user-select: none;
 }
 
+img {
+  transition: all 0.3s;
+}
+
 .container {
   max-width: 130rem;
   margin: 0 auto;
@@ -62,6 +66,10 @@ body {
 
 .text-align-right {
   text-align: right;
+}
+
+.section-mt-10 {
+  margin-top: 10rem;
 }
 
 @media (max-width: 45em) {
