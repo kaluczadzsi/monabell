@@ -1,6 +1,6 @@
 .section-hero {
   background-color: $clr-primary-100;
-  padding-top: 10rem;
+
   .hero {
     gap: 2rem;
 
@@ -32,9 +32,18 @@
   }
 }
 
+@media (max-width: 47em) {
+  .section-hero {
+    .hero-main-text {
+      font-size: 3.6rem;
+    }
+  }
+}
+
 @media (max-width: 45em) {
   .section-hero {
-    padding: 6.5rem 0;
+    padding-top: 10rem;
+
     .inner-container.hero {
       text-align: center;
       grid-template-columns: 1fr;
