@@ -374,6 +374,7 @@ body {
   text-align: justify;
   line-height: 1.6;
 }
+
 @media (max-width: 25em) {
   .section-feature .feature-content {
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
