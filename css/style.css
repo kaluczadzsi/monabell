@@ -285,7 +285,6 @@ body {
   }
   .section-footer .footer article:not(:last-child) {
     border-bottom: 1px solid #fff;
-    border-bottom-width: 10%;
   }
 }
 .section-gallery .gallery {
