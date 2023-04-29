@@ -3,7 +3,7 @@
     padding-top: 4rem;
     padding-bottom: 4rem;
     display: flex;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
 
     &-header {
@@ -25,6 +25,7 @@
 @media (max-width: 45em) {
   .section-about {
     .about {
+      align-items: center;
       &-text {
         text-align: left;
       }

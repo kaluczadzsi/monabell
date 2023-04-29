@@ -37,7 +37,7 @@
       }
 
       caption {
-        text-align: center;
+        text-align: left;
         font-weight: 700;
         font-size: 2rem;
 
@@ -58,6 +58,16 @@
       border: 1px solid #feec6f;
       color: #c9971c;
       padding: 2rem;
+    }
+  }
+}
+
+@media (max-width: 45em) {
+  .section-price {
+    .price {
+      caption {
+        text-align: center;
+      }
     }
   }
 }

@@ -334,7 +334,7 @@ img {
   padding-top: 4rem;
   padding-bottom: 4rem;
   display: flex;
-  align-items: center;
+  align-items: start;
   flex-direction: column;
 }
 .section-about .about-header {
@@ -351,6 +351,9 @@ img {
 }
 
 @media (max-width: 45em) {
+  .section-about .about {
+    align-items: center;
+  }
   .section-about .about-text {
     text-align: left;
   }
@@ -426,7 +429,7 @@ img {
   color: #fff;
 }
 .section-price .price-table caption {
-  text-align: center;
+  text-align: left;
   font-weight: 700;
   font-size: 2rem;
   text-transform: uppercase;
@@ -442,4 +445,10 @@ img {
   border: 1px solid #feec6f;
   color: #c9971c;
   padding: 2rem;
+}
+
+@media (max-width: 45em) {
+  .section-price .price caption {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
