@@ -91,6 +91,7 @@ a {
 }
 .section-nav .nav .hamburger {
   cursor: pointer;
+  display: none;
 }
 .section-nav .nav .hamburger .bar {
   width: 25px;
@@ -403,6 +404,11 @@ img {
 }
 .section-price .price-table td {
   width: 50%;
+  transition: all 0.2s ease;
+}
+.section-price .price-table tr:hover td {
+  background-color: #323232;
+  color: #fff;
 }
 .section-price .price-table caption {
   text-align: center;

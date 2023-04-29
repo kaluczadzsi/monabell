@@ -28,6 +28,12 @@
 
       td {
         width: 50%;
+        transition: all 0.2s ease;
+      }
+
+      tr:hover td {
+        background-color: $clr-primary-400;
+        color: $clr-neutral-100;
       }
 
       caption {
