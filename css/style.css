@@ -145,9 +145,9 @@ a {
     transition: all 0.3s ease-in-out;
   }
 }
-@media (max-width: 52em) {
+@media (max-width: 28.125em) {
   .section-nav .nav-list {
-    gap: 3rem;
+    top: 136px;
   }
 }
 html {
