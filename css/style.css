@@ -112,6 +112,7 @@ a {
   .section-nav {
     position: fixed;
     width: 100%;
+    z-index: 99999;
   }
   .section-nav .nav {
     position: relative;
