@@ -4,6 +4,7 @@
   color: $clr-neutral-100;
 
   .footer {
+    gap: 1rem;
     justify-content: space-between;
 
     &-header {
@@ -14,10 +15,19 @@
   }
 }
 
+@media (max-width: 50em) {
+  .section-footer {
+    .footer {
+      font-size: 1.4rem;
+    }
+  }
+}
+
 @media (max-width: 45em) {
   .section-footer {
     padding: 0;
     .footer {
+      font-size: 1.6rem;
       flex-direction: column;
       text-align: center;
 

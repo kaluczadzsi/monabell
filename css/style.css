@@ -267,7 +267,7 @@ img {
 
 @media (max-width: 47em) {
   .section-hero .hero-main-text {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
   }
 }
 @media (max-width: 45em) {
@@ -285,6 +285,7 @@ img {
   color: #fff;
 }
 .section-footer .footer {
+  gap: 1rem;
   justify-content: space-between;
 }
 .section-footer .footer-header {
@@ -293,11 +294,17 @@ img {
   margin-bottom: 2.4rem;
 }
 
+@media (max-width: 50em) {
+  .section-footer .footer {
+    font-size: 1.4rem;
+  }
+}
 @media (max-width: 45em) {
   .section-footer {
     padding: 0;
   }
   .section-footer .footer {
+    font-size: 1.6rem;
     flex-direction: column;
     text-align: center;
   }
@@ -390,6 +397,9 @@ img {
 }
 .section-feature .feature-box-text {
   text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  word-spacing: -0.05em;
   line-height: 1.6;
 }
 
