@@ -27,7 +27,11 @@
     .about {
       align-items: center;
       &-text {
-        text-align: left;
+        text-align: justify;
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        word-spacing: -0.05em;
+        line-height: 1.6;
       }
     }
   }
