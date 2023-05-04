@@ -273,7 +273,7 @@ img {
 }
 @media (max-width: 45em) {
   .section-hero {
-    padding-top: 10rem;
+    padding-top: 12rem;
   }
   .section-hero .inner-container.hero {
     text-align: center;

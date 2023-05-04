@@ -1,6 +1,5 @@
 .section-hero {
   background-color: $clr-primary-100;
-
   .hero {
     gap: 2rem;
 
@@ -42,7 +41,7 @@
 
 @media (max-width: 45em) {
   .section-hero {
-    padding-top: 10rem;
+    padding-top: 12rem;
 
     .inner-container.hero {
       text-align: center;
